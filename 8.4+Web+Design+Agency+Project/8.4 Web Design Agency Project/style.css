@@ -13,9 +13,44 @@ body {
 h1 {
   font-size: 5rem;
 }
-
-footer {
-  text-align: right;
+.creative {
   color: midnightblue;
 }
 
+.logo {
+  width: 150px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+}
+
+  .card {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width:780px) {
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    
+  }
